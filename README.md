@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @jasi381
-- 👀 I’m interested in Android App Development
-- 🌱 I’m currently learning Kotlin
+- 👋 Hi, I’m Jasmeet Singh Chawla 
+- 👀 I’m interested in Native Android App Development
+- 🌱 I’m currently learning Jetpack compose
 - 📫 How to reach me : email id : sjasmeet438@gmail.com
 
 <!---
