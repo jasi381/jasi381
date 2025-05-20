@@ -29,7 +29,7 @@ Description of another cool project.
 
 ## Contact
 [![Email](https://img.shields.io/badge/Email-sjasmeet438@gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sjasmeet438@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile) <!-- TODO: Update LinkedIn Profile URL -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jasmeetchawla/) <!-- TODO: Update LinkedIn Profile URL -->
 [![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jasi381) <!-- This links to the current repo owner, verify if it's the intended profile -->
 
 <!---
