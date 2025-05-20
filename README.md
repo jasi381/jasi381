@@ -1,20 +1,8 @@
-👋 Hi, I’m Jasmeet Singh Chawla, a passionate Mobile App Developer with a strong interest in creating innovative and user-friendly applications. I specialize in Native Android App Development and I'm currently expanding my skillset by learning Flutter. I'm eager to contribute to exciting projects and continuously learn new technologies in the mobile development space.
+👋 Hi, I’m Jasmeet Singh Chawla, a passionate Mobile App Developer with a strong interest in creating innovative and user-friendly applications. I specialize in Native Android App Development and Flutter and I'm currently expanding my skillset by learning Kotlin Multiplatform. I'm eager to contribute to exciting projects and continuously learn new technologies in the mobile development space.
 
 ### Currently Exploring
 - Deepening my expertise in Native Android App Development.
-- Expanding my skills with Flutter for cross-platform development.
-
-## Projects
-
-### Project Title 1
-A short description of the project, highlighting key features and your role.
-**Technologies:** Java, Android SDK, Firebase
-[Link to Project](https://github.com/yourusername/project-repo)
-
-### Project Title 2
-Description of another cool project.
-**Technologies:** Kotlin, Jetpack Compose, Retrofit
-[Link to Project](https://github.com/yourusername/another-project)
+- Expanding my skills with KMM for cross-platform development.
 
 ## Technical Skills
 
