@@ -84,9 +84,9 @@ object JasmeetSingh {
 ## &nbsp;GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jasi381&show_icons=true&hide_border=true&bg_color=0A0E14&title_color=2ECC71&icon_color=F0A500&text_color=7D8590&ring_color=2ECC71" alt="GitHub Stats"/>
+  <img height="195em" src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/stats.svg" alt="GitHub Stats"/>
   &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jasi381&layout=compact&hide_border=true&bg_color=0A0E14&title_color=2ECC71&text_color=7D8590&langs_count=6" alt="Top Languages"/>
+  <img height="195em" src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/top-langs.svg" alt="Top Languages"/>
 </div>
 
 <br/>
@@ -108,16 +108,16 @@ object JasmeetSingh {
 <div align="center">
 
 <a href="https://github.com/jasi381/DownloadManager">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=jasi381&repo=DownloadManager&hide_border=true&bg_color=0A0E14&title_color=2ECC71&icon_color=F0A500&text_color=7D8590" alt="DownloadManager"/>
+<img src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/pin-downloadmanager.svg" alt="DownloadManager"/>
 </a>
 <a href="https://github.com/jasi381/audio-player-compose">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=jasi381&repo=audio-player-compose&hide_border=true&bg_color=0A0E14&title_color=2ECC71&icon_color=F0A500&text_color=7D8590" alt="AudioPlayer"/>
+<img src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/pin-audio-player-compose.svg" alt="AudioPlayer"/>
 </a>
 <a href="https://github.com/jasi381/ImageLoader">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=jasi381&repo=ImageLoader&hide_border=true&bg_color=0A0E14&title_color=2ECC71&icon_color=F0A500&text_color=7D8590" alt="ImageLoader"/>
+<img src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/pin-imageloader.svg" alt="ImageLoader"/>
 </a>
 <a href="https://github.com/jasi381/SharedTransitionElement">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=jasi381&repo=SharedTransitionElement&hide_border=true&bg_color=0A0E14&title_color=2ECC71&icon_color=F0A500&text_color=7D8590" alt="SharedTransition"/>
+<img src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/pin-sharedtransitionelement.svg" alt="SharedTransition"/>
 </a>
 
 </div>
