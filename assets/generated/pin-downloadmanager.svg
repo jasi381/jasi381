@@ -4,8 +4,8 @@
     <path fill="#7D8590" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8.5V1.5z"/>
     <text x="22" y="13" fill="#2ECC71" font-size="14" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">DownloadManager</text>
   </g>
-  <text x="25" y="62" fill="#7D8590" font-size="12" font-family='Segoe UI',Ubuntu,sans-serif">AES-256 encrypted video streaming library with HLS/DASH</text>
-  <text x="25" y="80" fill="#7D8590" font-size="12" font-family='Segoe UI',Ubuntu,sans-serif">and adaptive bitrate...</text>
+  <text x="25" y="62" fill="#7D8590" font-size="12" font-family="Segoe UI, Ubuntu, sans-serif">AES-256 encrypted video streaming library with HLS/DASH</text>
+  <text x="25" y="80" fill="#7D8590" font-size="12" font-family="Segoe UI, Ubuntu, sans-serif">and adaptive bitrate...</text>
 
   <g transform="translate(25, 108)">
     <circle cx="5" cy="0" r="5" fill="#A97BFF"/>
