@@ -133,9 +133,7 @@ def make_stats_card(data):
         y = 60 + i * 32
         row_items += f"""
     <g transform="translate(25, {y})">
-      <svg width="16" height="16" viewBox="0 0 16 16">
-        <path fill="{ACCENT}" d="{icon_path}"/>
-      </svg>
+      <path fill="{ACCENT}" d="{icon_path}"/>
       <text x="28" y="13" fill="{MUTED}" font-size="14" font-family="'Segoe UI',Ubuntu,sans-serif">{label}</text>
       <text x="425" y="13" fill="{TEXT}" font-size="14" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif" text-anchor="end">{value}</text>
     </g>"""
@@ -232,7 +230,7 @@ def make_pin_card(repo):
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="400" height="130" viewBox="0 0 400 130">
   <rect width="400" height="130" rx="10" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>
   <g transform="translate(25, 20)">
-    <svg width="16" height="16" viewBox="0 0 16 16"><path fill="{MUTED}" d="{book_icon}"/></svg>
+    <path fill="{MUTED}" d="{book_icon}"/>
     <text x="22" y="13" fill="{PRIMARY}" font-size="14" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">{name}</text>
   </g>
 {desc_lines}
@@ -240,11 +238,11 @@ def make_pin_card(repo):
     <circle cx="5" cy="0" r="5" fill="{lang_color}"/>
     <text x="15" y="4" fill="{MUTED}" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">{lang}</text>
     <g transform="translate(90, -8)">
-      <svg width="16" height="16" viewBox="0 0 16 16"><path fill="{MUTED}" d="{star_icon}"/></svg>
+      <path fill="{MUTED}" d="{star_icon}"/>
       <text x="20" y="12" fill="{MUTED}" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">{stars}</text>
     </g>
     <g transform="translate(140, -8)">
-      <svg width="16" height="16" viewBox="0 0 16 16"><path fill="{MUTED}" d="{fork_icon}"/></svg>
+      <path fill="{MUTED}" d="{fork_icon}"/>
       <text x="20" y="12" fill="{MUTED}" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">{forks}</text>
     </g>
   </g>
