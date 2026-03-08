@@ -2,12 +2,12 @@
   <rect width="460" height="179" rx="10" fill="#0A0E14" stroke="#1B2430" stroke-width="1"/>
   <text x="25" y="36" fill="#2ECC71" font-size="18" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">Most Used Languages</text>
   <rect x="25" y="55" width="410" height="8" rx="4" fill="#1B2430"/>
-    <rect x="25" y="55" width="360.558234972811" height="8" rx="1.5" fill="#A97BFF"/>
-    <rect x="385.558234972811" y="55" width="20.06862073523933" height="8" rx="1.5" fill="#E34C26"/>
-    <rect x="405.62685570805036" y="55" width="7.030843859430806" height="8" rx="1.5" fill="#3572A5"/>
-    <rect x="412.6576995674812" y="55" width="6.3197328516972595" height="8" rx="1.5" fill="#00B4AB"/>
-    <rect x="418.97743241917846" y="55" width="5.195052142997533" height="8" rx="1.5" fill="#F34B7D"/>
-    <rect x="424.172484562176" y="55" width="4.212307538434163" height="8" rx="1.5" fill="#8B8B8B"/>
+    <rect x="25" y="55" width="360.55837474898624" height="8" rx="1.5" fill="#A97BFF"/>
+    <rect x="385.55837474898624" y="55" width="20.06862851516162" height="8" rx="1.5" fill="#E34C26"/>
+    <rect x="405.62700326414785" y="55" width="7.030687641982678" height="8" rx="1.5" fill="#3572A5"/>
+    <rect x="412.65769090613054" y="55" width="6.319735301642929" height="8" rx="1.5" fill="#00B4AB"/>
+    <rect x="418.9774262077735" y="55" width="5.195054156942711" height="8" rx="1.5" fill="#F34B7D"/>
+    <rect x="424.1724803647162" y="55" width="4.212309171402653" height="8" rx="1.5" fill="#8B8B8B"/>
 
     <g transform="translate(25, 89)">
       <circle cx="6" cy="6" r="6" fill="#A97BFF"/>
