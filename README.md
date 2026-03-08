@@ -59,14 +59,14 @@ Currently at **Resourcifi** building **KinectedCare** — a healthcare platform 
 
 ## Projects
 
-| Project | Description | Impact |
-|---------|-------------|--------|
-| 🏥 **[KinectedCare & Pro](https://github.com/jasi381)** | Healthcare app — Wear OS, Health Connect SDK, 3-tier billing, real-time SOS | `1,000+ users` |
-| 📱 **[FindMyTuition](https://github.com/jasi381)** | Flutter tutor-student marketplace with video calling & payments | `6,000+ downloads` |
+| Project      | Description | Impact |
+|---------     |-------------|--------|
+| 🏥 **[KinectedCare & Assist](https://play.google.com/store/apps/developer?id=Steamboat+Software+LLC&hl=en_IN)** | Healthcare app — Wear OS, Health Connect SDK, 3-tier billing, real-time SOS | `1,000+ users` |
+| 📱 **[FindMyTuition](https://play.google.com/store/apps/details?id=com.fmt.students&hl=en_IN)** | Flutter tutor-student marketplace with video calling & payments | `6,000+ downloads` |
 | 🎬 **[Encrypted Video SDK](https://github.com/jasi381/DownloadManager)** | AES-256 streaming library with HLS/DASH + adaptive bitrate · Published on JitPack | `50K+ daily streams` |
 | 🎵 **[AudioPlayer Compose](https://github.com/jasi381/audio-player-compose)** | Audio player component built with Jetpack Compose | Open Source |
 | 🖼️ **[ImageLoader](https://github.com/jasi381/ImageLoader)** | Custom image loading library in Kotlin | Open Source |
-| ✨ **[SharedTransitionElement](https://github.com/jasi381/SharedTransitionElement)** | Shared element transitions in Jetpack Compose | Open Source |
+| ✨ **[SharedTransition](https://github.com/jasi381/SharedTransitionElement)** | Shared element transitions in Jetpack Compose | Open Source |
 
 <br/>
 
