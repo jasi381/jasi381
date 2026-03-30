@@ -2,36 +2,36 @@
   <rect width="460" height="179" rx="10" fill="#0A0E14" stroke="#1B2430" stroke-width="1"/>
   <text x="25" y="36" fill="#2ECC71" font-size="18" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">Most Used Languages</text>
   <rect x="25" y="55" width="410" height="8" rx="4" fill="#1B2430"/>
-    <rect x="25" y="55" width="345.54943258884566" height="8" rx="1.5" fill="#A97BFF"/>
-    <rect x="370.54943258884566" y="55" width="17.753023311356955" height="8" rx="1.5" fill="#E34C26"/>
-    <rect x="388.30245590020263" y="55" width="15.634832111532342" height="8" rx="1.5" fill="#8B8B8B"/>
-    <rect x="403.93728801173495" y="55" width="6.561233528857138" height="8" rx="1.5" fill="#F1E05A"/>
-    <rect x="410.4985215405921" y="55" width="6.464918894158704" height="8" rx="1.5" fill="#3572A5"/>
-    <rect x="416.9634404347508" y="55" width="5.811177830416518" height="8" rx="1.5" fill="#00B4AB"/>
+    <rect x="25" y="55" width="335.13026961788427" height="8" rx="1.5" fill="#A97BFF"/>
+    <rect x="360.13026961788427" y="55" width="18.63249139758292" height="8" rx="1.5" fill="#3572A5"/>
+    <rect x="378.76276101546716" y="55" width="17.217726113145684" height="8" rx="1.5" fill="#E34C26"/>
+    <rect x="395.9804871286128" y="55" width="15.163403573585628" height="8" rx="1.5" fill="#8B8B8B"/>
+    <rect x="411.14389070219846" y="55" width="6.363396244288246" height="8" rx="1.5" fill="#F1E05A"/>
+    <rect x="417.5072869464867" y="55" width="5.635956564924265" height="8" rx="1.5" fill="#00B4AB"/>
 
     <g transform="translate(25, 89)">
       <circle cx="6" cy="6" r="6" fill="#A97BFF"/>
       <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">Kotlin</text>
-      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">84.3%</text>
+      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">81.7%</text>
     </g>
     <g transform="translate(230, 89)">
-      <circle cx="6" cy="6" r="6" fill="#E34C26"/>
-      <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">HTML</text>
-      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">4.3%</text>
-    </g>
-    <g transform="translate(25, 117)">
-      <circle cx="6" cy="6" r="6" fill="#8B8B8B"/>
-      <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">TypeScript</text>
-      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">3.8%</text>
-    </g>
-    <g transform="translate(230, 117)">
-      <circle cx="6" cy="6" r="6" fill="#F1E05A"/>
-      <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">JavaScript</text>
-      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">1.6%</text>
-    </g>
-    <g transform="translate(25, 145)">
       <circle cx="6" cy="6" r="6" fill="#3572A5"/>
       <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">Python</text>
+      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">4.5%</text>
+    </g>
+    <g transform="translate(25, 117)">
+      <circle cx="6" cy="6" r="6" fill="#E34C26"/>
+      <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">HTML</text>
+      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">4.2%</text>
+    </g>
+    <g transform="translate(230, 117)">
+      <circle cx="6" cy="6" r="6" fill="#8B8B8B"/>
+      <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">TypeScript</text>
+      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">3.7%</text>
+    </g>
+    <g transform="translate(25, 145)">
+      <circle cx="6" cy="6" r="6" fill="#F1E05A"/>
+      <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">JavaScript</text>
       <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">1.6%</text>
     </g>
     <g transform="translate(230, 145)">
