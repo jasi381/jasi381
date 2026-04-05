@@ -117,9 +117,9 @@ object JasmeetSingh {
 ## &nbsp;GitHub Analytics
 
 <div align="center">
-  <img height="195em" src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/stats.svg" alt="GitHub Stats"/>
+  <img height="195em" src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/stats.svg?v=2" alt="GitHub Stats"/>
   &nbsp;&nbsp;
-  <img height="195em" src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/top-langs.svg" alt="Top Languages"/>
+  <img height="195em" src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/top-langs.svg?v=2" alt="Top Languages"/>
 </div>
 
 <br/>
