@@ -40,13 +40,6 @@ LANG_COLORS = {
     "Go": "#00ADD8",
 }
 
-PINNED_REPOS = [
-    ("DownloadManager", "AES-256 encrypted video streaming library with HLS/DASH and adaptive bitrate"),
-    ("audio-player-compose", "Audio player component built with Jetpack Compose"),
-    ("ImageLoader", "Custom image loading library written in Kotlin"),
-    ("SharedTransitionElement", "Shared element transitions in Jetpack Compose"),
-]
-
 # ── GitHub API ───────────────────────────────────────────────────────────────
 
 def api(path):
@@ -82,31 +75,12 @@ def fetch_data():
     total_bytes = sum(b for _, b in sorted_langs) or 1
     top_langs = [(name, bytes_ / total_bytes * 100) for name, bytes_ in sorted_langs[:6]]
 
-    # Per-repo data for pins
-    pin_data = []
-    for repo_name, desc in PINNED_REPOS:
-        try:
-            r = api(f"/repos/{USERNAME}/{repo_name}")
-            pin_data.append({
-                "name": repo_name,
-                "desc": desc,
-                "lang": r.get("language", "Kotlin") or "Kotlin",
-                "stars": r["stargazers_count"],
-                "forks": r["forks_count"],
-            })
-        except Exception:
-            pin_data.append({
-                "name": repo_name, "desc": desc,
-                "lang": "Kotlin", "stars": 0, "forks": 0,
-            })
-
     return {
         "followers": user["followers"],
         "public_repos": user["public_repos"],
         "total_stars": total_stars,
         "total_forks": total_forks,
         "top_langs": top_langs,
-        "pins": pin_data,
     }
 
 
@@ -191,64 +165,6 @@ def make_top_langs_card(top_langs):
 </svg>"""
 
 
-def make_pin_card(repo):
-    name = svg_escape(repo["name"])
-    desc = svg_escape(repo["desc"])
-    lang = repo["lang"]
-    lang_color = LANG_COLORS.get(lang, "#8B8B8B")
-    stars = repo["stars"]
-    forks = repo["forks"]
-
-    # Truncate description to ~60 chars per line, max 2 lines
-    words = desc.split()
-    lines = []
-    current = ""
-    for w in words:
-        if len(current) + len(w) + 1 > 55 and current:
-            lines.append(current)
-            current = w
-            if len(lines) >= 2:
-                break
-        else:
-            current = f"{current} {w}".strip() if current else w
-    if current and len(lines) < 2:
-        lines.append(current)
-    if len(lines) == 2 and len(desc) > sum(len(l) for l in lines):
-        lines[1] = lines[1][:52] + "..."
-
-    desc_lines = ""
-    for j, line in enumerate(lines):
-        desc_lines += f'  <text x="25" y="{62 + j * 18}" fill="{MUTED}" font-size="12" font-family="Segoe UI, Ubuntu, sans-serif">{line}</text>\n'
-
-    # Book icon
-    book_icon = "M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8.5V1.5z"
-    # Star icon
-    star_icon = "M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"
-    # Fork icon
-    fork_icon = "M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"
-
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="400" height="130" viewBox="0 0 400 130">
-  <rect width="400" height="130" rx="10" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>
-  <g transform="translate(25, 20)">
-    <path fill="{MUTED}" d="{book_icon}"/>
-    <text x="22" y="13" fill="{PRIMARY}" font-size="14" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">{name}</text>
-  </g>
-{desc_lines}
-  <g transform="translate(25, 108)">
-    <circle cx="5" cy="0" r="5" fill="{lang_color}"/>
-    <text x="15" y="4" fill="{MUTED}" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">{lang}</text>
-    <g transform="translate(90, -8)">
-      <path fill="{MUTED}" d="{star_icon}"/>
-      <text x="20" y="12" fill="{MUTED}" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">{stars}</text>
-    </g>
-    <g transform="translate(140, -8)">
-      <path fill="{MUTED}" d="{fork_icon}"/>
-      <text x="20" y="12" fill="{MUTED}" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">{forks}</text>
-    </g>
-  </g>
-</svg>"""
-
-
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
@@ -264,13 +180,6 @@ def main():
     print("Generating top languages card...")
     with open(os.path.join(OUTPUT, "top-langs.svg"), "w") as f:
         f.write(make_top_langs_card(data["top_langs"]))
-
-    print("Generating pin cards...")
-    for pin in data["pins"]:
-        filename = f"pin-{pin['name'].lower()}.svg"
-        with open(os.path.join(OUTPUT, filename), "w") as f:
-            f.write(make_pin_card(pin))
-        print(f"  -> {filename}")
 
     print("Done!")
 

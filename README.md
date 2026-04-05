@@ -1,47 +1,75 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!-- Header — deep dark → emerald gradient wave                  -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E14,40:112B2B,100:2ECC71&height=230&section=header&text=Jasmeet%20Singh&fontSize=44&fontColor=E6EDF3&animation=fadeIn&fontAlignY=34&desc=Android%20Developer%20%C2%B7%20Open%20Source%20%C2%B7%20Technical%20Writer&descSize=16&descColor=7D8590&descAlignY=56" />
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--  HEADER — deep dark → mid emerald gradient wave                        -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0E14,50:0D2118,100:2ECC71&height=250&section=header&text=Jasmeet%20Singh&fontSize=52&fontColor=FFFFFF&fontAlignY=36&animation=fadeIn&desc=Android%20Engineer%20%E2%80%A2%20Open%20Source%20Author%20%E2%80%A2%20Technical%20Writer&descSize=17&descColor=7D9E8A&descAlignY=57"/>
 
-<!-- Typing SVG — mint accent -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=1200&color=2ECC71&center=true&vCenter=true&multiline=false&random=false&width=620&lines=Building+healthcare+apps+that+save+lives;3%2B+years+shipping+production+Android;Open-source+library+author+on+JitPack;Writing+Android+deep-dives+on+Medium" alt="Typing SVG" /></a>
+<!-- TYPING SVG — JetBrains Mono, emerald accent -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=1000&color=2ECC71&center=true&vCenter=true&multiline=false&random=false&width=700&lines=Shipping+production+Android+since+2021;Wear+OS+%2B+Health+Connect+specialist;Open-source+library+author+on+JitPack;Writing+Android+deep-dives+on+Medium" alt="Typing SVG"/>
+</a>
 
 <br/><br/>
 
-<!-- Social links — monochrome with mint hover feel -->
-<a href="https://linkedin.com/in/jasmeet-singh-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
-<a href="https://jasmeetsingh.dev"><img src="https://img.shields.io/badge/Portfolio-0A0E14?style=for-the-badge&logo=vercel&logoColor=2ECC71" alt="Portfolio"/></a>&nbsp;
-<a href="https://medium.com/@jasi381"><img src="https://img.shields.io/badge/Medium-0A0E14?style=for-the-badge&logo=medium&logoColor=E6EDF3" alt="Medium"/></a>&nbsp;
-<a href="mailto:sjasmeet438@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+<!-- QUICK IDENTITY CHIPS -->
+<img src="https://img.shields.io/badge/Experience-3%2B%20Years-2ECC71?style=flat-square&labelColor=0A0E14&color=2ECC71" alt="3+ Years"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Focus-Healthcare%20%26%20Wear%20OS-2ECC71?style=flat-square&labelColor=0A0E14" alt="Focus"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Published-JitPack-2ECC71?style=flat-square&labelColor=0A0E14" alt="JitPack"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Writing-Medium-2ECC71?style=flat-square&labelColor=0A0E14" alt="Medium"/>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=jasi381&style=flat-square&color=2ECC71&label=Profile+Views" alt="Profile Views"/>
+
+<br/><br/>
+
+<!-- SOCIAL LINKS -->
+<a href="https://linkedin.com/in/jasmeet-singh-dev">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>&nbsp;
+<a href="https://jasmeetsingh.dev">
+  <img src="https://img.shields.io/badge/Portfolio-0A0E14?style=for-the-badge&logo=vercel&logoColor=2ECC71" alt="Portfolio"/>
+</a>&nbsp;
+<a href="https://medium.com/@jasi381">
+  <img src="https://img.shields.io/badge/Medium-0A0E14?style=for-the-badge&logo=medium&logoColor=E6EDF3" alt="Medium"/>
+</a>&nbsp;
+<a href="mailto:sjasmeet438@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+</a>
 
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!-- Divider                                                     -->
-<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 <img width="100%" src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/line.svg"/>
 
-## &nbsp;About Me
+## &nbsp;`whoami`
 
 ```kotlin
 object JasmeetSingh {
-    val role       = "Android Developer"
-    val company    = "Resourcifi"
-    val building   = "KinectedCare — Healthcare Platform"
-    val experience = "3+ years"
+    val role       = "Android Engineer @ Resourcifi"
+    val building   = "KinectedCare — Remote Patient Monitoring Platform"
+    val experience = "3+ years shipping production Android"
 
-    val dailyStack = listOf("Kotlin", "Jetpack Compose", "Wear OS", "Health Connect SDK")
-    val passions   = listOf("Clean Architecture", "Smooth UX", "Open Source", "Technical Writing")
+    val dailyStack = listOf(
+        "Kotlin", "Jetpack Compose", "Wear OS", "Health Connect SDK"
+    )
+    val principles = listOf(
+        "Clean Architecture", "SOLID", "Smooth UX", "Technical Writing"
+    )
+    val openSource = "AES-256 streaming · image loading · download manager → JitPack"
 
-    fun currentFocus() = "Remote patient monitoring with Wear OS + Health Connect"
+    fun currentFocus() = buildString {
+        append("Wear OS health data pipelines + ")
+        append("encrypted HLS/DASH video delivery")
+    }
 }
 ```
 
 <img width="100%" src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/line.svg"/>
 
-## &nbsp;Tech Stack
+## &nbsp;Tech Arsenal
 
 <div align="center">
 
@@ -50,30 +78,35 @@ object JasmeetSingh {
 <img src="https://skillicons.dev/icons?i=kotlin,java,dart,go&theme=dark" alt="Languages"/>
 </p>
 
-#### Android & Frameworks
+#### Android Core
 <p>
 <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose"/>
 <img src="https://img.shields.io/badge/Wear%20OS-4285F4?style=for-the-badge&logo=wearos&logoColor=white" alt="Wear OS"/>
 <img src="https://img.shields.io/badge/Health%20Connect-2ECC71?style=for-the-badge&logo=google&logoColor=white" alt="Health Connect"/>
-<img src="https://img.shields.io/badge/Media--3-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Media3"/>
 <img src="https://img.shields.io/badge/Coroutines%20%26%20Flow-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Coroutines"/>
-<img src="https://img.shields.io/badge/Clean%20Architecture-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Architecture"/>
 <img src="https://img.shields.io/badge/Play%20Billing-414141?style=for-the-badge&logo=googleplay&logoColor=white" alt="Billing"/>
 </p>
 
-#### Tools & Libraries
+#### Architecture & DI
 <p>
-<img src="https://img.shields.io/badge/Hilt%20/%20Koin-FF6F00?style=for-the-badge&logo=google&logoColor=white" alt="DI"/>
+<img src="https://img.shields.io/badge/Clean%20Architecture-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Clean Architecture"/>
+<img src="https://img.shields.io/badge/Hilt-FF6F00?style=for-the-badge&logo=google&logoColor=white" alt="Hilt"/>
+<img src="https://img.shields.io/badge/Koin-FF6F00?style=for-the-badge&logo=kotlin&logoColor=white" alt="Koin"/>
 <img src="https://img.shields.io/badge/Retrofit-48B983?style=for-the-badge" alt="Retrofit"/>
-<img src="https://img.shields.io/badge/Firebase-F0A500?style=for-the-badge&logo=firebase&logoColor=0A0E14" alt="Firebase"/>
-<img src="https://img.shields.io/badge/Socket.IO-0A0E14?style=for-the-badge&logo=socket.io&logoColor=E6EDF3" alt="Socket"/>
-<img src="https://img.shields.io/badge/GitHub%20Actions-0A0E14?style=for-the-badge&logo=github-actions&logoColor=2ECC71" alt="CI"/>
 </p>
 
-#### Video & Streaming
+#### Platform & DevOps
 <p>
-<img src="https://img.shields.io/badge/HLS%20/%20DASH-FF4500?style=for-the-badge" alt="HLS"/>
-<img src="https://img.shields.io/badge/AES--256-0A0E14?style=for-the-badge&logoColor=2ECC71" alt="AES"/>
+<img src="https://img.shields.io/badge/Firebase-F0A500?style=for-the-badge&logo=firebase&logoColor=0A0E14" alt="Firebase"/>
+<img src="https://img.shields.io/badge/Socket.IO-0A0E14?style=for-the-badge&logo=socket.io&logoColor=E6EDF3" alt="Socket.IO"/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-0A0E14?style=for-the-badge&logo=github-actions&logoColor=2ECC71" alt="CI/CD"/>
+</p>
+
+#### Media & Streaming
+<p>
+<img src="https://img.shields.io/badge/Media3-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Media3"/>
+<img src="https://img.shields.io/badge/HLS%20%2F%20DASH-FF4500?style=for-the-badge" alt="HLS/DASH"/>
+<img src="https://img.shields.io/badge/AES--256-0A0E14?style=for-the-badge&logoColor=2ECC71" alt="AES-256"/>
 <img src="https://img.shields.io/badge/Adaptive%20Bitrate-0D3B66?style=for-the-badge" alt="ABR"/>
 </p>
 
@@ -103,34 +136,16 @@ object JasmeetSingh {
 
 <img width="100%" src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/line.svg"/>
 
-## &nbsp;Featured Projects
+## &nbsp;Find Me Online
 
 <div align="center">
 
-<a href="https://github.com/jasi381/DownloadManager">
-<img src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/pin-downloadmanager.svg" alt="DownloadManager"/>
-</a>
-<a href="https://github.com/jasi381/audio-player-compose">
-<img src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/pin-audio-player-compose.svg" alt="AudioPlayer"/>
-</a>
-<a href="https://github.com/jasi381/ImageLoader">
-<img src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/pin-imageloader.svg" alt="ImageLoader"/>
-</a>
-<a href="https://github.com/jasi381/SharedTransitionElement">
-<img src="https://raw.githubusercontent.com/jasi381/jasi381/main/assets/generated/pin-sharedtransitionelement.svg" alt="SharedTransition"/>
-</a>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-| Project | What it does | Impact |
-|:--------|:-------------|:-------|
-| **KinectedCare & Assist** | Healthcare platform — Wear OS, Health Connect SDK, 3-tier billing, real-time SOS alerts | `1,000+ users` |
-| **FindMyTuition** | Flutter tutor-student marketplace with video calling & integrated payments | `6,000+ downloads` |
-| **Encrypted Video SDK** | AES-256 streaming library with HLS/DASH + adaptive bitrate — published on JitPack | `50K+ daily streams` |
+| Platform | What's there |
+|:--------:|:-------------|
+| **[Medium](https://medium.com/@jasi381)** | Android deep-dives — Wear OS, Jetpack Compose, architecture patterns & more |
+| **[JitPack](https://jitpack.io/#jasi381)** | Published Android libraries — AES-256 streaming, image loader, download manager |
+| **[Portfolio](https://jasmeetsingh.dev)** | Projects, case studies & contact |
+| **[LinkedIn](https://linkedin.com/in/jasmeet-singh-dev)** | Career updates & engineering takes |
 
 </div>
 
@@ -140,17 +155,19 @@ object JasmeetSingh {
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jasi381/jasi381/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jasi381/jasi381/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/jasi381/jasi381/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jasi381/jasi381/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jasi381/jasi381/output/github-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/jasi381/jasi381/output/github-snake.svg"/>
 </picture>
 </div>
 
 <br/>
 
-<!-- Footer wave — emerald → dark -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2ECC71,40:112B2B,100:0A0E14&height=120&section=footer"/>
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--  FOOTER — emerald → dark wave                                          -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2ECC71,40:112B2B,100:0A0E14&height=130&section=footer"/>
 
 <div align="center">
-<sub>Building things that matter · one commit at a time</sub>
+  <sub><strong>Building things that matter</strong> &nbsp;·&nbsp; one commit at a time</sub>
 </div>
