@@ -2,27 +2,27 @@
   <rect width="460" height="179" rx="10" fill="#0A0E14" stroke="#1B2430" stroke-width="1"/>
   <text x="25" y="36" fill="#2ECC71" font-size="18" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">Most Used Languages</text>
   <rect x="25" y="55" width="410" height="8" rx="4" fill="#1B2430"/>
-    <rect x="25" y="55" width="307.57222489459826" height="8" rx="1.5" fill="#A97BFF"/>
-    <rect x="332.57222489459826" y="55" width="34.896013129226674" height="8" rx="1.5" fill="#3572A5"/>
-    <rect x="367.46823802382494" y="55" width="30.269658470331912" height="8" rx="1.5" fill="#8B8B8B"/>
-    <rect x="397.73789649415687" y="55" width="15.799779293172236" height="8" rx="1.5" fill="#E34C26"/>
-    <rect x="413.53767578732914" y="55" width="15.141337257010271" height="8" rx="1.5" fill="#F1E05A"/>
-    <rect x="428.6790130443394" y="55" width="4.728502306103393" height="8" rx="1.5" fill="#8B8B8B"/>
+    <rect x="25" y="55" width="309.2847327958206" height="8" rx="1.5" fill="#A97BFF"/>
+    <rect x="334.2847327958206" y="55" width="35.090307975666185" height="8" rx="1.5" fill="#3572A5"/>
+    <rect x="369.3750407714868" y="55" width="34.34397810345617" height="8" rx="1.5" fill="#8B8B8B"/>
+    <rect x="403.71901887494295" y="55" width="15.887749677645012" height="8" rx="1.5" fill="#E34C26"/>
+    <rect x="419.60676855258794" y="55" width="9.667006255560537" height="8" rx="1.5" fill="#F1E05A"/>
+    <rect x="429.27377480814846" y="55" width="4.754829772970482" height="8" rx="1.5" fill="#8B8B8B"/>
 
     <g transform="translate(25, 89)">
       <circle cx="6" cy="6" r="6" fill="#A97BFF"/>
       <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">Kotlin</text>
-      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">75.0%</text>
+      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">75.4%</text>
     </g>
     <g transform="translate(230, 89)">
       <circle cx="6" cy="6" r="6" fill="#3572A5"/>
       <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">Python</text>
-      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">8.5%</text>
+      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">8.6%</text>
     </g>
     <g transform="translate(25, 117)">
       <circle cx="6" cy="6" r="6" fill="#8B8B8B"/>
       <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">TypeScript</text>
-      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">7.4%</text>
+      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">8.4%</text>
     </g>
     <g transform="translate(230, 117)">
       <circle cx="6" cy="6" r="6" fill="#E34C26"/>
@@ -32,7 +32,7 @@
     <g transform="translate(25, 145)">
       <circle cx="6" cy="6" r="6" fill="#F1E05A"/>
       <text x="18" y="10" fill="#7D8590" font-size="12" font-family="'Segoe UI',Ubuntu,sans-serif">JavaScript</text>
-      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">3.7%</text>
+      <text x="130" y="10" fill="#E6EDF3" font-size="12" font-weight="600" font-family="'Segoe UI',Ubuntu,sans-serif">2.4%</text>
     </g>
     <g transform="translate(230, 145)">
       <circle cx="6" cy="6" r="6" fill="#8B8B8B"/>
