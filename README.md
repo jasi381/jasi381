@@ -75,7 +75,7 @@ object JasmeetSingh {
 
 #### Languages
 <p>
-<img src="https://skillicons.dev/icons?i=kotlin,java,dart,go&theme=dark" alt="Languages"/>
+<img src="https://skillicons.dev/icons?i=kotlin,java,dart&theme=dark" alt="Languages"/>
 </p>
 
 #### Android Core
